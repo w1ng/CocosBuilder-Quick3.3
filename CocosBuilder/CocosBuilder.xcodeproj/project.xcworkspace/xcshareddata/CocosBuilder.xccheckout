@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B33ADB9-3AA4-40EC-8174-7AF16DE19000</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CocosBuilder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>150A68F5D81F7D884442B46FF5668B805BE44A33</key>
+		<string>https://github.com/vlidholt/Fragaria.git</string>
+		<key>21D48039AB8DB0E2E80069F5DBBD5B7639B76892</key>
+		<string>https://github.com/Jennal/CocosBuilder.git</string>
+		<key>ECFF97C7085E758E76254953D5CFA588773A129F</key>
+		<string>git://github.com/cocos2d/CCBReader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CocosBuilder/CocosBuilder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>150A68F5D81F7D884442B46FF5668B805BE44A33</key>
+		<string>../../..CocosBuilder/libs/Fragaria/</string>
+		<key>21D48039AB8DB0E2E80069F5DBBD5B7639B76892</key>
+		<string>../../..</string>
+		<key>ECFF97C7085E758E76254953D5CFA588773A129F</key>
+		<string>../../..Examples/CocosBuilderExample/libs/CCBReader/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Jennal/CocosBuilder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>21D48039AB8DB0E2E80069F5DBBD5B7639B76892</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ECFF97C7085E758E76254953D5CFA588773A129F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CCBReader</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>21D48039AB8DB0E2E80069F5DBBD5B7639B76892</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocosBuilder</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>150A68F5D81F7D884442B46FF5668B805BE44A33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fragaria</string>
+		</dict>
+	</array>
+</dict>
+</plist>
