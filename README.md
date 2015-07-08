@@ -1,6 +1,6 @@
-#CocosBuilder for Quick-x 3.3 final
+#CocosBuilder for quick-cocos2d-x v3
 这个版本是根据[Jennal的Cocosbuilder修改版](https://github.com/jennal/CocosBuilder)改动完成.
-由于他的版本是在Cocos2d-x 3.2上面做的. 与Quick-x 3.3 final有些许不兼容,因此对照他的修改,做了这个版本.
+由于他的版本是在Cocos2d-x 3.2上面做的. 与quick-cocos2d-x v3有些许不兼容,因此对照他的修改,做了这个版本.
 
 #TODO
 之后会集成进来Cocos2dxGAFPlayer
