@@ -18,9 +18,6 @@
 		2D80DD011A1DE5B4005AAFFE /* luaTemplate in Resources */ = {isa = PBXBuildFile; fileRef = 2D80DD001A1DE5B4005AAFFE /* luaTemplate */; };
 		2DD669D91AB6C5C400E5340B /* CCRepeat9Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD669D81AB6C5C400E5340B /* CCRepeat9Sprite.m */; };
 		2DFC85221AC161D20058F252 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
-		2DFC85241AC161D20058F252 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3B84C3E151A2C02004B743C /* InfoPlist.strings */; };
-		2DFC85251AC161D20058F252 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3B84C49151A2CBB004B743C /* CCBPProperties.plist */; };
-		2DFC85261AC161D20058F252 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B7BCB715E417DE00CF95EF /* Icon.png */; };
 		2DFCABE31AC162AD0058F252 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFCABDD1AC162AD0058F252 /* CCBPProperties.plist */; };
 		2DFCABE41AC162AD0058F252 /* CCControlButtonBMFont-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFCABDE1AC162AD0058F252 /* CCControlButtonBMFont-Info.plist */; };
 		2DFCABE51AC162AD0058F252 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DFCABE01AC162AD0058F252 /* InfoPlist.strings */; };
@@ -1948,6 +1945,9 @@
 		E3FEA8BC14E498B600119FBE /* InspectorDegrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorDegrees.h; sourceTree = "<group>"; };
 		E3FEA8BD14E498B700119FBE /* InspectorDegrees.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorDegrees.m; sourceTree = "<group>"; };
 		E3FEA8BF14E49D8300119FBE /* InspectorInteger.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorInteger.xib; sourceTree = "<group>"; };
+		F68638431C1813350014402C /* CCSprite copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CCSprite copy-Info.plist"; path = "/Users/stan/Documents/MyLua/CocosBuilder/CocosBuilder-Quick3.3/CocosBuilder/CCSprite copy-Info.plist"; sourceTree = "<absolute>"; };
+		F68638511C18149C0014402C /* CCBFile copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CCBFile copy-Info.plist"; path = "/Users/stan/Documents/MyLua/CocosBuilder/CocosBuilder-Quick3.3/CocosBuilder/CCBFile copy-Info.plist"; sourceTree = "<absolute>"; };
+		F686385D1C1814AA0014402C /* CCControl copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CCControl copy-Info.plist"; path = "/Users/stan/Documents/MyLua/CocosBuilder/CocosBuilder-Quick3.3/CocosBuilder/CCControl copy-Info.plist"; sourceTree = "<absolute>"; };
 		FA98CFC1154E7D1C006E58C5 /* ccbpublish */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ccbpublish; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA98CFC3154E7D1C006E58C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA98CFC6154E7D1C006E58C5 /* ccbpublish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccbpublish.m; sourceTree = "<group>"; };
@@ -2512,6 +2512,9 @@
 				FA98CFC5154E7D1C006E58C5 /* ccbpublish */,
 				7789ABC1133AA82000CEFCC7 /* Frameworks */,
 				7789ABBF133AA82000CEFCC7 /* Products */,
+				F68638431C1813350014402C /* CCSprite copy-Info.plist */,
+				F68638511C18149C0014402C /* CCBFile copy-Info.plist */,
+				F686385D1C1814AA0014402C /* CCControl copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4641,11 +4644,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFC85241AC161D20058F252 /* InfoPlist.strings in Resources */,
 				2DFCABE51AC162AD0058F252 /* InfoPlist.strings in Resources */,
-				2DFC85251AC161D20058F252 /* CCBPProperties.plist in Resources */,
 				2DFCABE41AC162AD0058F252 /* CCControlButtonBMFont-Info.plist in Resources */,
-				2DFC85261AC161D20058F252 /* Icon.png in Resources */,
 				2DFCABE61AC162AD0058F252 /* Icon.png in Resources */,
 				2DFCABE31AC162AD0058F252 /* CCBPProperties.plist in Resources */,
 			);

@@ -5,32 +5,24 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5B33ADB9-3AA4-40EC-8174-7AF16DE19000</string>
+	<string>782EAC46-95D7-4D48-99A1-6F3459F16328</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CocosBuilder</string>
+	<string>CCRotatingSprite</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>150A68F5D81F7D884442B46FF5668B805BE44A33</key>
-		<string>https://github.com/vlidholt/Fragaria.git</string>
 		<key>21D48039AB8DB0E2E80069F5DBBD5B7639B76892</key>
 		<string>https://github.com/Jennal/CocosBuilder.git</string>
 		<key>9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0</key>
 		<string>https://github.com/w1ng/CocosBuilder-Quick3.3.git</string>
-		<key>ECFF97C7085E758E76254953D5CFA588773A129F</key>
-		<string>git://github.com/cocos2d/CCBReader.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CocosBuilder/CocosBuilder.xcodeproj</string>
+	<string>PlugIn Nodes/CCRotatingSprite/CCRotatingSprite.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>150A68F5D81F7D884442B46FF5668B805BE44A33</key>
-		<string>../../../../CocosBuilderCocosBuilder/libs/Fragaria</string>
 		<key>21D48039AB8DB0E2E80069F5DBBD5B7639B76892</key>
-		<string>../../../../CocosBuilder</string>
+		<string>../../../../..</string>
 		<key>9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0</key>
-		<string>../../..</string>
-		<key>ECFF97C7085E758E76254953D5CFA588773A129F</key>
-		<string>../../../../CocosBuilderExamples/CocosBuilderExample/libs/CCBReader</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/w1ng/CocosBuilder-Quick3.3.git</string>
@@ -44,17 +36,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>ECFF97C7085E758E76254953D5CFA588773A129F</string>
-			<key>IDESourceControlWCCName</key>
-			<string>CCBReader</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>21D48039AB8DB0E2E80069F5DBBD5B7639B76892</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CocosBuilder</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
@@ -63,14 +47,6 @@
 			<string>9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CocosBuilder-Quick3.3</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>150A68F5D81F7D884442B46FF5668B805BE44A33</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Fragaria</string>
 		</dict>
 	</array>
 </dict>

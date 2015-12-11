@@ -16,9 +16,15 @@ local __CLASS_NAME__ = Oop.class("__CLASS_NAME__", function(owner)
 end)
 
 function __CLASS_NAME__:ctor()
+    -- 遮罩层 阻止下层接受点击事件
+    local CMMaskLayer = CMMask.new()
+    self:addChild(CMMaskLayer)
     -- @TODO: constructor
+    __ADD_TOUCH_FUNC__
 end
 
 __FUNC_IMPLEMENTS__
+
+__TOUCH_FUNC_IMPLEMENTS__
 
 return __CLASS_NAME__

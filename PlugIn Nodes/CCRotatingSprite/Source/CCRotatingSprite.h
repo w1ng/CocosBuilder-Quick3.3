@@ -26,9 +26,9 @@
 
 @interface CCRotatingSprite : CCSprite
 {
-    float secondsPerRotation;
+    int clickTag;
 }
 
-@property (nonatomic,assign) float secondsPerRotation;
+@property (nonatomic,assign) int clickTag;
 
 @end

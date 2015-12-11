@@ -26,27 +26,28 @@
 
 @implementation CCRotatingSprite
 
-@synthesize secondsPerRotation;
+@synthesize clickTag;
 
 - (id) init
 {
     self = [super init];
     if (!self) return NULL;
     
-    self.secondsPerRotation = 2;
+//    self.clickTag = 2;
     
     return self;
 }
 
-- (void) setSecondsPerRotation:(float)spr
+- (void) setSecondsPerRotation:(int)spr
 {
-    secondsPerRotation = spr;
+    clickTag = spr;
     
+    NSLog(@"%d  clickTag is ",clickTag);
     // Stop rotating
-    [self stopAllActions];
-    
-    // Rotate with the new speed
-    [self runAction:[CCRepeatForever actionWithAction:[CCRotateBy actionWithDuration:spr angle:360]]];
+//    [self stopAllActions];
+//    
+//    // Rotate with the new speed
+//    [self runAction:[CCRepeatForever actionWithAction:[CCRotateBy actionWithDuration:spr angle:360]]];
 }
 
 @end

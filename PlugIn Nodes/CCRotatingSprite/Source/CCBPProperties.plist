@@ -14,17 +14,23 @@
 	<array>
 		<dict>
 			<key>displayName</key>
+			<string>CCClickSprite</string>
+			<key>name</key>
 			<string>CCRotatingSprite</string>
 			<key>type</key>
 			<string>Separator</string>
 		</dict>
 		<dict>
+			<key>defaultSerialization</key>
+			<integer>0</integer>
+			<key>animatable</key>
+			<true/>
 			<key>displayName</key>
-			<string>Sec/rotation</string>
+			<string>clickTag</string>
 			<key>type</key>
-			<string>Float</string>
+			<string>Byte</string>
 			<key>name</key>
-			<string>secondsPerRotation</string>
+			<string>clickTag</string>
 		</dict>
 	</array>
 </dict>

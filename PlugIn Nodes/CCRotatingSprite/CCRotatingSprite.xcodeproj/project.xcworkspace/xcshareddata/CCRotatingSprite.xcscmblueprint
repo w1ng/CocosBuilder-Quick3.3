@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0" : 0,
+    "21D48039AB8DB0E2E80069F5DBBD5B7639B76892" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "782EAC46-95D7-4D48-99A1-6F3459F16328",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0" : "CocosBuilder-Quick3.3",
+    "21D48039AB8DB0E2E80069F5DBBD5B7639B76892" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CCRotatingSprite",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PlugIn Nodes\/CCRotatingSprite\/CCRotatingSprite.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jennal\/CocosBuilder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21D48039AB8DB0E2E80069F5DBBD5B7639B76892"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/w1ng\/CocosBuilder-Quick3.3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0"
+    }
+  ]
+}

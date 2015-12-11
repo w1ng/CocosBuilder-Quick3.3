@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CocosBuilderExample.xcscheme</key>
+		<key>CCRotatingSprite.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E37596A214FD224800CD9F5F</key>
+		<key>E3DEFB0F14FFD66C00B98586</key>
 		<dict>
 			<key>primary</key>
 			<true/>

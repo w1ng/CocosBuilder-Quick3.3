@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "150A68F5D81F7D884442B46FF5668B805BE44A33" : 0,
+    "21D48039AB8DB0E2E80069F5DBBD5B7639B76892" : 0,
+    "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0" : 0,
+    "ECFF97C7085E758E76254953D5CFA588773A129F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5B33ADB9-3AA4-40EC-8174-7AF16DE19000",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "150A68F5D81F7D884442B46FF5668B805BE44A33" : "CocosBuilderCocosBuilder\/libs\/Fragaria",
+    "21D48039AB8DB0E2E80069F5DBBD5B7639B76892" : "CocosBuilder",
+    "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0" : "CocosBuilder-Quick3.3",
+    "ECFF97C7085E758E76254953D5CFA588773A129F" : "CocosBuilderExamples\/CocosBuilderExample\/libs\/CCBReader"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CocosBuilder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CocosBuilder\/CocosBuilder.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vlidholt\/Fragaria.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "150A68F5D81F7D884442B46FF5668B805BE44A33"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jennal\/CocosBuilder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21D48039AB8DB0E2E80069F5DBBD5B7639B76892"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/w1ng\/CocosBuilder-Quick3.3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A051E9FFC1DC880C3F439DF6B5E3D79512EA0D0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cocos2d\/CCBReader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ECFF97C7085E758E76254953D5CFA588773A129F"
+    }
+  ]
+}

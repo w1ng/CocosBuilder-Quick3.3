@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E35DBB6714F21E7D0070A6E4"
-               BuildableName = "CCLayer.ccbPlugNode"
-               BlueprintName = "CCLayer"
-               ReferencedContainer = "container:CocosBuilder.xcodeproj">
+               BlueprintIdentifier = "E3DEFB0F14FFD66C00B98586"
+               BuildableName = "CCRotatingSprite.ccbPlugNode"
+               BlueprintName = "CCRotatingSprite"
+               ReferencedContainer = "container:CCRotatingSprite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,10 +42,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E35DBB6714F21E7D0070A6E4"
-            BuildableName = "CCLayer.ccbPlugNode"
-            BlueprintName = "CCLayer"
-            ReferencedContainer = "container:CocosBuilder.xcodeproj">
+            BlueprintIdentifier = "E3DEFB0F14FFD66C00B98586"
+            BuildableName = "CCRotatingSprite.ccbPlugNode"
+            BlueprintName = "CCRotatingSprite"
+            ReferencedContainer = "container:CCRotatingSprite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E35DBB6714F21E7D0070A6E4"
-            BuildableName = "CCLayer.ccbPlugNode"
-            BlueprintName = "CCLayer"
-            ReferencedContainer = "container:CocosBuilder.xcodeproj">
+            BlueprintIdentifier = "E3DEFB0F14FFD66C00B98586"
+            BuildableName = "CCRotatingSprite.ccbPlugNode"
+            BlueprintName = "CCRotatingSprite"
+            ReferencedContainer = "container:CCRotatingSprite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

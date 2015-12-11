@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CCBFile copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>CCBFile.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
+		</dict>
+		<key>CCControl copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
 		</dict>
 		<key>CCControl.xcscheme</key>
 		<dict>
@@ -83,6 +93,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
+		</dict>
+		<key>CCSprite copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
 		</dict>
 		<key>CCSprite.xcscheme</key>
 		<dict>
@@ -198,6 +213,21 @@
 			<true/>
 		</dict>
 		<key>E3FCE8651524856D0028E8E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F68638341C1813330014402C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F68638441C18149C0014402C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F68638521C1814AA0014402C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

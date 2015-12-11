@@ -73,6 +73,9 @@ enum {
     // functions
     NSString* funcNameReplacement = @"";
     NSString* funcImplementReplacement = @"";
+    NSString* touchFuncImplementReplacement = @"";
+    NSString* addTouchFuncReplacement = @"";
+
     for (NSArray* func in funcs) {
         NSString* funcName = [func objectAtIndex:0];
         NSNumber* target  = [func objectAtIndex:1];
@@ -101,11 +104,41 @@ enum {
     
     //members
     NSString* membersReplacement = @"";
+    NSString* singleTouchFuncImp = @"";
+
     for (NSDictionary* node in members) {
         NSString* assignName = [node objectForKey:@"memberVarAssignmentName"];
         NSNumber* assignType = [node objectForKey:@"memberVarAssignmentType"];
         NSString* baseClass  = [node objectForKey:@"baseClass"];
         NSString* customClass= [node objectForKey:@"customClass"];
+
+
+        if ([baseClass isEqualToString:@"CCSprite"]) {
+            for (NSDictionary* dict in [node objectForKey:@"properties"]) {
+                if ([[dict objectForKey:@"name"] isEqualToString:@"tag"]) {
+                    int spriteTag = [[dict objectForKey:@"value"] intValue];
+                    if (spriteTag >= 500) {
+//                    对于tag>=500的精灵   视为按钮   直接在模板中绑定点击事件
+                        addTouchFuncReplacement = [addTouchFuncReplacement stringByAppendingFormat:@"    \n--Add touch Event -%@\n    self.%@:setTouchEnabled(true)\n    self.%@:setLocalZOrder(1)\n    self.%@:addNodeEventListener(cc.NODE_TOUCH_EVENT,function(event) return self:buttonClick(event,self.%@)end)\n",assignName,assignName,assignName,assignName ,assignName];
+                        singleTouchFuncImp = [singleTouchFuncImp stringByAppendingFormat:@"\n    if tag == %d then\n        --todo %@ Sprite Click\n        --todo        local state = CMSpriteButton:new(event,{sprite = sender,callback = function () CMClose(self) end})\n\n        return state\n    end",spriteTag,assignName];
+                    }
+                }
+            }
+        }
+        
+        
+//        NSData *properties = [[node objectForKey:@"properties"] dataUsingEncoding:NSUTF8StringEncoding];
+//        NSDictionary *propDict = [NSJSONSerialization JSONObjectWithData:properties options:NSJSONReadingMutableLeaves error:nil];
+//        if (propDict != NULL) {
+//            for (NSString *value in [propDict allValues]) {
+//                if ([value isEqualToString:@"tag"]) {
+//                    NSLog(@"Tag is ===> %d",[[propDict objectForKey:@"value"] intValue]);
+//                }
+//            }
+//        }
+//        NSLog(@"customClass:%@,baseClass:%@",baseClass,customClass);
+        
+        
         
         if (membersReplacement.length > 0) {
             membersReplacement = [membersReplacement stringByAppendingString:@"\n    "];
@@ -127,6 +160,12 @@ enum {
                                     assignName,
                                     customClass.length > 0 ? customClass : baseClass
                               ];
+        
+        
+    }
+    if (![singleTouchFuncImp isEqualToString:@""]) {
+//        todo namespace
+        touchFuncImplementReplacement = [touchFuncImplementReplacement stringByAppendingFormat:@"function %@:buttonClick(event,sender)\n    -- @TODO: all sprite click func\n    local tag = sender:getTag()\n    %@\nend",className,singleTouchFuncImp];
     }
     
     // replace contents
@@ -138,6 +177,9 @@ enum {
     content = [content stringByReplacingOccurrencesOfString:@"__FUNC_IMPLEMENTS__" withString:funcImplementReplacement];
     content = [content stringByReplacingOccurrencesOfString:@"__MEMBERS__" withString:membersReplacement];
     content = [content stringByReplacingOccurrencesOfString:@"__CLASS_NAME__" withString:className];
+//    add by WuBing  在生成lua 模板时   绑定某些精灵的触摸函数
+    content = [content stringByReplacingOccurrencesOfString:@"__TOUCH_FUNC_IMPLEMENTS__" withString:touchFuncImplementReplacement];
+    content = [content stringByReplacingOccurrencesOfString:@"__ADD_TOUCH_FUNC__" withString:addTouchFuncReplacement];
     
     return content;
 }
