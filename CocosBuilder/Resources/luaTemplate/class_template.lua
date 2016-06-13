@@ -9,16 +9,30 @@ Members:
     __MEMBERS__
 ]]
 local __CLASS_NAME__ = Oop.class("__CLASS_NAME__", function(owner)
-    -- @param "UI.ccb" => code root
+    -- 在这里预加载纹理/音效
+
+    -- @param "app.scenes" => code root
     -- @param "ccb/"   => ccbi folder
-    CCBLoader:setRootPath("UI", "__CCBI_FOLDER__")
+    CCBLoader:setRootPath("app.scenes", "__CCBI_FOLDER__")
     return CCBLoader:load("__CLASS_NAME__", owner)
 end)
 
+function LoadingSceneLayer:onExit()
+    self:unregisterScriptHandler()
+--  TODO 在这里清除需要清理的纹理/音效
+end
+
 function __CLASS_NAME__:ctor()
+    --添加onexit()事件
+    self:registerScriptHandler(function(event)
+        if event == "exit" then
+            self:onExit()
+        end
+    end)
+
     -- 遮罩层 阻止下层接受点击事件
-    local CMMaskLayer = CMMask.new()
-    self:addChild(CMMaskLayer)
+    local mask = MaskLayer.new()
+    self:addChild(mask)
     -- @TODO: constructor
     __ADD_TOUCH_FUNC__
 end
